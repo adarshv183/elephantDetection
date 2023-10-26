@@ -1,0 +1,16 @@
+# train: C:\work\train_1.0
+# val: C:\work\val_1.0
+
+# nc: 4
+
+# names: ["elephant - forward", "elephant - left", "elephant - right", "elephant - away"]
+path: '/content/gdrive/My Drive/Elephant_Detector/model_2/data' # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/train  # val images (relative to 'path')
+
+# Classes
+names:
+  0: elephant - forward
+  1: elephant - left
+  2: elephant - right
+  3: elephant - away
